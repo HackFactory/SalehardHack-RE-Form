@@ -83,6 +83,6 @@ class DetailedGoalViewController: UIViewController, UITextFieldDelegate, UITextV
         super.viewDidLoad()
         goalimageView.image = UIImage(named: goalImageName!)
         goalLabel.text = goalName
-        self.deadlineLabel.delegate = self
+//        self.deadlineLabel.delegate = self
     }
 }
