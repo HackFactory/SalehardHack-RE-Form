@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailedGoalViewController: UIViewController {
+class DetailedGoalViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate {
 
     @IBOutlet weak var shareButton: UIButton!
     private static let instagramURLScheme = "instagram-stories://share"
@@ -17,6 +17,13 @@ class DetailedGoalViewController: UIViewController {
     var goalName: String?
     @IBOutlet weak var goalimageView: UIImageView!
     @IBOutlet weak var goalLabel: UILabel!
+    @IBOutlet weak var deadlineLabel: UITextField!
+    @IBOutlet weak var moneyLabel: UILabel!
+    @IBOutlet weak var textView: UITextView!
+    
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        // TODO: vshakhray
+    }
     
     public static func share(snapshot: UIImage, controller: UIViewController) {
         let shareOptionMenuController = UIAlertController(title: "Share",
@@ -76,5 +83,6 @@ class DetailedGoalViewController: UIViewController {
         super.viewDidLoad()
         goalimageView.image = UIImage(named: goalImageName!)
         goalLabel.text = goalName
+        self.deadlineLabel.delegate = self
     }
 }
