@@ -11,10 +11,13 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UserDefaults.standard.set([["Бросить Курить", "1000 рублей", "stop_smoking"],
+                                   ["Больше читать", "1500 рублей", "start_reading"],
+                                   ["Выучить новый язык", "800 рублей", "learn_language"]], forKey: "promises")
+        
         return true
     }
 

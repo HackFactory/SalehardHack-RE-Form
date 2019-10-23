@@ -23,6 +23,7 @@ class GoalViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
         cell.goalImageView.image = UIImage(named: cardImages[indexPath.row])
         cell.goalImageName = cardImages[indexPath.row]
+        cell.storyImageName = storyImages[cell.goalImageName!]
     
         cell.goalImageView.isUserInteractionEnabled = true
         let tapGestureRecognizer = UITapGestureRecognizer(target: self,
@@ -39,6 +40,10 @@ class GoalViewController: UIViewController, UICollectionViewDelegate, UICollecti
             return
         }
         
+        controller.storyImageName = storyImages[tappedCell.goalImageName!]
+        controller.goalImageName = tappedCell.goalImageName
+        controller.goalName = goalNames[tappedCell.goalImageName!]
+        
         if tappedCell.goalImageName == "custom_goal" {
             let previousLast = cardImages.last ?? ""
             cardImages.removeLast()
@@ -51,6 +56,23 @@ class GoalViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     var cardImages = ["lose_weight", "stop_smoking", "start_reading", "learn_language", "custom_goal"]
+    var storyImages = ["lose_weight" : "weight_story",
+                      "stop_smoking" : "smoking_story",
+                      "start_reading" : "read_story",
+                      "learn_language" : "language_story",
+                      "custom_goal" : "my_goal",
+                      "my_goal" : "my_goal"
+    ]
+    
+    var goalNames = [
+        "lose_weight" : "Потерять вес",
+        "stop_smoking" : "Бросить курить",
+        "start_reading" : "Больше читать",
+        "learn_language" : "Выучить новый язык",
+        "custom_goal" : "Добавить цель",
+        "my_goal" : "Моя цель №1"
+    ]
+    
     let newCardImage = "my_goal"
 
     @IBOutlet weak var collectionView: UICollectionView!

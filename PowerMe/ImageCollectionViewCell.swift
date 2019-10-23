@@ -11,4 +11,5 @@ import UIKit
 class ImageCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var goalImageView: UIImageView!
     var goalImageName: String?
+    var storyImageName: String?
 }

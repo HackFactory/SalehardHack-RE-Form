@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8506970E7F64161B8A63F557 /* Pods_PowerMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1DBF5DF52B772D321C9836 /* Pods_PowerMe.framework */; };
+		BC86565023602F4B00EFBAE2 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC86564923602F4B00EFBAE2 /* SFUIDisplay-Medium.ttf */; };
+		BC86565123602F4B00EFBAE2 /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC86564B23602F4B00EFBAE2 /* SFUIDisplay-Bold.ttf */; };
+		BC86565223602F4B00EFBAE2 /* PromiseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC86564C23602F4B00EFBAE2 /* PromiseTableViewCell.m */; };
+		BC86565323602F4B00EFBAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC86564E23602F4B00EFBAE2 /* ViewController.m */; };
+		BC86565423602F4B00EFBAE2 /* SFUIDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC86564F23602F4B00EFBAE2 /* SFUIDisplay-Heavy.ttf */; };
 		BCAD9137235F6BC7004265A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD9136235F6BC7004265A5 /* AppDelegate.swift */; };
 		BCAD9139235F6BC7004265A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD9138235F6BC7004265A5 /* SceneDelegate.swift */; };
 		BCAD913E235F6BC7004265A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAD913C235F6BC7004265A5 /* Main.storyboard */; };
@@ -19,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56738EFCC792B39125428ADF /* Pods-PowerMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerMe.release.xcconfig"; path = "Target Support Files/Pods-PowerMe/Pods-PowerMe.release.xcconfig"; sourceTree = "<group>"; };
+		5E1DBF5DF52B772D321C9836 /* Pods_PowerMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC86564923602F4B00EFBAE2 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		BC86564A23602F4B00EFBAE2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC86564B23602F4B00EFBAE2 /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		BC86564C23602F4B00EFBAE2 /* PromiseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromiseTableViewCell.m; sourceTree = "<group>"; };
+		BC86564D23602F4B00EFBAE2 /* PromiseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromiseTableViewCell.h; sourceTree = "<group>"; };
+		BC86564E23602F4B00EFBAE2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC86564F23602F4B00EFBAE2 /* SFUIDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Heavy.ttf"; sourceTree = "<group>"; };
 		BCAD9133235F6BC7004265A5 /* PowerMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAD9136235F6BC7004265A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCAD9138235F6BC7004265A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +45,7 @@
 		BCAD914C235FA4AD004265A5 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		BCAD914E235FA58D004265A5 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
 		BCAD9150235FAF62004265A5 /* DetailedGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedGoalViewController.swift; sourceTree = "<group>"; };
+		E6351DD4C91291588D037C40 /* Pods-PowerMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerMe.debug.xcconfig"; path = "Target Support Files/Pods-PowerMe/Pods-PowerMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8506970E7F64161B8A63F557 /* Pods_PowerMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CE0BC0CBACE4E35EF0E4FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1DBF5DF52B772D321C9836 /* Pods_PowerMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CB03484156A4CF5DBF32E8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6351DD4C91291588D037C40 /* Pods-PowerMe.debug.xcconfig */,
+				56738EFCC792B39125428ADF /* Pods-PowerMe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BCAD912A235F6BC7004265A5 = {
 			isa = PBXGroup;
 			children = (
 				BCAD9135235F6BC7004265A5 /* PowerMe */,
 				BCAD9134235F6BC7004265A5 /* Products */,
+				7CB03484156A4CF5DBF32E8F /* Pods */,
+				5CE0BC0CBACE4E35EF0E4FD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +108,13 @@
 				BCAD914C235FA4AD004265A5 /* ImageCollectionViewCell.swift */,
 				BCAD914E235FA58D004265A5 /* GoalViewController.swift */,
 				BCAD9150235FAF62004265A5 /* DetailedGoalViewController.swift */,
+				BC86564A23602F4B00EFBAE2 /* ViewController.h */,
+				BC86564E23602F4B00EFBAE2 /* ViewController.m */,
+				BC86564B23602F4B00EFBAE2 /* SFUIDisplay-Bold.ttf */,
+				BC86564923602F4B00EFBAE2 /* SFUIDisplay-Medium.ttf */,
+				BC86564F23602F4B00EFBAE2 /* SFUIDisplay-Heavy.ttf */,
+				BC86564D23602F4B00EFBAE2 /* PromiseTableViewCell.h */,
+				BC86564C23602F4B00EFBAE2 /* PromiseTableViewCell.m */,
 			);
 			path = PowerMe;
 			sourceTree = "<group>";
@@ -83,6 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCAD9147235F6BC7004265A5 /* Build configuration list for PBXNativeTarget "PowerMe" */;
 			buildPhases = (
+				7139C6E6DD4DD926093733F1 /* [CP] Check Pods Manifest.lock */,
 				BCAD912F235F6BC7004265A5 /* Sources */,
 				BCAD9130235F6BC7004265A5 /* Frameworks */,
 				BCAD9131235F6BC7004265A5 /* Resources */,
@@ -134,13 +178,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC86565123602F4B00EFBAE2 /* SFUIDisplay-Bold.ttf in Resources */,
 				BCAD9143235F6BC7004265A5 /* LaunchScreen.storyboard in Resources */,
+				BC86565023602F4B00EFBAE2 /* SFUIDisplay-Medium.ttf in Resources */,
 				BCAD9140235F6BC7004265A5 /* Assets.xcassets in Resources */,
+				BC86565423602F4B00EFBAE2 /* SFUIDisplay-Heavy.ttf in Resources */,
 				BCAD913E235F6BC7004265A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7139C6E6DD4DD926093733F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCAD912F235F6BC7004265A5 /* Sources */ = {
@@ -149,8 +221,10 @@
 			files = (
 				BCAD9151235FAF62004265A5 /* DetailedGoalViewController.swift in Sources */,
 				BCAD9137235F6BC7004265A5 /* AppDelegate.swift in Sources */,
+				BC86565323602F4B00EFBAE2 /* ViewController.m in Sources */,
 				BCAD914F235FA58D004265A5 /* GoalViewController.swift in Sources */,
 				BCAD9139235F6BC7004265A5 /* SceneDelegate.swift in Sources */,
+				BC86565223602F4B00EFBAE2 /* PromiseTableViewCell.m in Sources */,
 				BCAD914D235FA4AD004265A5 /* ImageCollectionViewCell.swift in Sources */,
 				BCAD914B235F7037004265A5 /* MapViewController.swift in Sources */,
 			);
@@ -294,6 +368,7 @@
 		};
 		BCAD9148235F6BC7004265A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6351DD4C91291588D037C40 /* Pods-PowerMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,12 +381,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mountain-Viewer.PowerMe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BCAD9149235F6BC7004265A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56738EFCC792B39125428ADF /* Pods-PowerMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,7 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mountain-Viewer.PowerMe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

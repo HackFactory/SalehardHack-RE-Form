@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-PowerMe/Pods-PowerMe-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CreditCardForm/CreditCardForm.framework
+${BUILT_PRODUCTS_DIR}/Frames/Frames.framework
+${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework

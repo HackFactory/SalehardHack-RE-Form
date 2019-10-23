@@ -33,7 +33,7 @@ class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
-    let regionInMeters: Double = 1000
+    let regionInMeters: Double = 3000
     var locationHasBeenSet: Bool = false
     
     var lastLocation: CLLocation?
